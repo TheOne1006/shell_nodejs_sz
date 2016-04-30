@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/TheOne1006/shell_nodejs_sz/issues"
   },
-  "homepage": "https://github.com/TheOne1006/shell_nodejs_sz#readme"
+  "homepage": "https://github.com/TheOne1006/shell_nodejs_sz#readme",
+  "dependencies": {
+    "commander": "^2.9.0"
+  }
 }

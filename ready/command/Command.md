@@ -33,7 +33,25 @@ $ node test.js build xxx
 4. 第三起个为 执行 Node.js 的参数
 
 
+### 文件描述
 
+```bash
+#!/usr/bin/env node
+用于指定当前文件用哪种解释器来执行.  
+在Linux Shell环境下,文件具有执行权限时,可以直接通过 ./xxx 来执行
+```
+
+### 通过`package.json`, 增加bin属性
+```bash
+...
+"bin" : {
+    "myblog": "./bin/myblog"
+}
+...
+
+在通过 `[sudo] npm link` 链接到全局  
+
+```
 
 
 

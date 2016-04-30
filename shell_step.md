@@ -8,3 +8,7 @@
 - 文章使用MarkDown格式编写
 - 本地事实预览 (myblog preview [dir])
 - 生成整站静态 HTML (myblog build [dir] [--output target])
+
+
+### 定义命令工具的基本架构
+详情参照 `ready/command`
