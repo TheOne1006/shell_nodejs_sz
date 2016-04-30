@@ -12,3 +12,6 @@
 
 ### 定义命令工具的基本架构
 详情参照 `ready/command`
+
+### 实时预览
+`preview` 功能包含了 `create` 和 `build`  
