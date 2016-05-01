@@ -17,6 +17,9 @@
   },
   "homepage": "https://github.com/TheOne1006/shell_nodejs_sz#readme",
   "dependencies": {
-    "commander": "^2.9.0"
+    "commander": "^2.9.0",
+    "express": "^4.13.4",
+    "markdown-it": "^6.0.1",
+    "serve-static": "^1.10.2"
   }
 }

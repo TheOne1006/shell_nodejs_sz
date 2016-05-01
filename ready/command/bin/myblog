@@ -1,6 +1,7 @@
 #!/usr/bin/env node
 
 var program = require('commander');
+var preview = require('../lib/cmd_preview');
 
 // 命令行版本号
 program.version('0.0.1');
@@ -25,9 +26,7 @@ program
 program
     .command('preview [dir]')
     .description('实时预览')
-    .action(function (dir) {
-        console.log('preview %s', dir);
-    });
+    .action(preview);
 
 // build 命令
 program

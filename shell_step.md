@@ -15,3 +15,8 @@
 
 ### 实时预览
 `preview` 功能包含了 `create` 和 `build`  
+
+
+### md2html 渲染文章页面
+
+`markdown-it`模块
