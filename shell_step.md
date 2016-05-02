@@ -19,4 +19,17 @@
 
 ### md2html 渲染文章页面
 
+markdown 格式 转换成 HTML
 `markdown-it`模块
+
+### 文章元数据
+
+这是元数据:  
+```
+---
+title: 标题
+date: 2015-06-16
+---
+
+content content
+```
