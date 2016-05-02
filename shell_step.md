@@ -33,3 +33,11 @@ date: 2015-06-16
 
 content content
 ```
+
+### build 直接征程静态的 HTML 文件
+
+通过
+```bash
+./bin/myblog build --output dest
+生成静态文件到 当前目录的 dest 文件夹中
+```
