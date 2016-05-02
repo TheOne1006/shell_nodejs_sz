@@ -41,3 +41,5 @@ content content
 ./bin/myblog build --output dest
 生成静态文件到 当前目录的 dest 文件夹中
 ```
+
+### 提取配置文件 `/config.json`
